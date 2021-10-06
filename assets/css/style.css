@@ -1,0 +1,76 @@
+.portada{
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 80px;
+}
+.subtitulo{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+.navegacion{
+    position: absolute;
+    top: 0%;
+
+}
+
+@media (max-width: 600px) {
+    .subtitulo{
+        position: absolute;
+        top: 165px;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 12px;
+    }
+    .titulo{
+        font-size: 23px;
+        position: absolute;
+        top: 145px;
+        left: 20%;
+        color: red;
+    }
+  }
+
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
